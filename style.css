@@ -1,0 +1,47 @@
+* {margin: 0; padding: 0;}
+body {overflow: hidden;}
+
+.scroll_wrap {
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: top 0.8s ease;
+}
+.scroll_section {
+
+}
+.scroll_section:nth-child(1) {
+    background-color: #9a6;
+}
+.scroll_section:nth-child(2) {
+    background-color: #922;
+}
+.scroll_section:nth-child(3) {
+    background-color: #938;
+}
+.scroll_section:nth-child(4) {
+    background-color: #132;
+}
+.scroll_sideIndex {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.scroll_sideIndex ul {
+    padding: 5px 0;
+    border-radius: 10px;
+    background-color: #333;
+}
+.scroll_sideIndex li {
+    margin: 15px 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    list-style: none;
+    cursor: pointer;
+}
+.scroll_sideIndex li.active {
+    background-color: #698;
+}
